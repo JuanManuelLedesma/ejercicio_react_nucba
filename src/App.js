@@ -1,11 +1,11 @@
 import './App.css';
-import { ToDoList } from './components/E1_React/toDoList/ToDoList';
-import { GlobalStyles } from './globalStyles/GlobalStyles';
+import Routes from './routes/Routes';
+import { GlobalStyles } from './styles/GlobalStyles';
 
 function App() {
   return (
     <>
-      <ToDoList />
+      <Routes />
       <GlobalStyles />
     </>
   );
